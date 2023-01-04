@@ -1,0 +1,124 @@
+/* .grid-container{
+     .container {
+          display: flex;
+        }
+        .container > * {
+          margin: 20px;
+        }
+background-color: red;
+height: 70px;
+grid-column: 2 / span 2;
+     }
+   */
+.grid-container {
+
+     grid-column: 1 / span 2;
+     text-align: center;
+     background-color: blueviolet;
+     /* display: -ms-inline-grid; */
+}
+
+.div_container {
+     background-color: #336699;
+     display: inline-block;
+     padding: 10px;
+     text-align: center;
+     align-items: center;
+     height: 60px;
+}
+
+img {
+     width: 240px;
+     height: 200px;
+}
+
+.box {
+
+     width: 240px;
+     background-color: aqua;
+     /* text-align: end; */
+     border-style: solid;
+     border-color: #336699;
+     /* border-width: 1px;
+  padding-left: 6px;
+  padding-bottom: 15px; */
+}
+
+.series {
+     background-color: antiquewhite;
+     padding: 3px;
+}
+
+
+#demobox {
+     text-align: center;
+     width: 70px;
+     background-color: slateblue;
+     text-decoration-color: aliceblue;
+     margin-left: 30px;
+
+
+}
+h4{
+     font-size: 17px;
+}
+
+.qwerty {
+     text-align: right;
+     background-color: blueviolet;
+     font-size: 7px;
+     height: 80px;
+
+}
+
+.name {
+     font-weight: bold;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-style: inherit;
+
+
+
+}
+
+.bigdiv {
+     display: grid;
+     grid-template-columns: auto auto;
+     column-gap: 0px;
+     justify-content: center;
+     grid-template-rows: 60px 70px 450px 150px;
+
+
+}
+
+.tech {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+button {
+     height: 30px;
+     width: 270px;
+     /* background-position: center; */
+color: blue;
+background-color: coral;
+}
+
+#bottom {
+     background-color: #336699;
+     padding: 20px;
+     /* text-decoration-color: chocolate;
+     font-size: larger;
+     font-style: normal; */
+
+
+}
+
+.sab {
+     text-decoration-color: chocolate;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-style: initial;
+     font-size: larger;
+
+
+}
